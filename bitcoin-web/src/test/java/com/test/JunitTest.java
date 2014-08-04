@@ -2,6 +2,7 @@ package com.test;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
@@ -46,7 +47,8 @@ public class JunitTest {
 		bean.businessOperation(9);
 		bean.businessOperation(10);
 
-		assertTrue(true);
+		fail();
+		
 	}
 
 	@Test(expected = RuntimeException.class)
