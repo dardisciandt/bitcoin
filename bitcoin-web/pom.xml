@@ -119,7 +119,6 @@
 					</execution>
 
 					<execution>
-						<id>pre-test</id>
 						<configuration>
 							<destFile>${sonar.jacoco.reportPath}</destFile>
 						</configuration>
@@ -128,7 +127,7 @@
 						</goals>
 					</execution>
 					<execution>
-						<id>post-test</id>
+						<id>test-id</id>
 						<phase>test</phase>
 						<goals>
 							<goal>report</goal>
