@@ -1,4 +1,4 @@
-package com.test;
+package com.test.ut;
 
 import static org.easymock.EasyMock.expectLastCall;
 import static org.junit.Assert.assertTrue;

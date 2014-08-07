@@ -1,4 +1,4 @@
-package com.test;
+package com.test.ut;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
